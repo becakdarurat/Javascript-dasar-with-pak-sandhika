@@ -7,3 +7,14 @@ function jumlahDuaBilangan (a,b) {
     return total;
 }
 jumlahDuaBilangan(100,20);
+
+// Menjumlahkan volume 2 kubus
+function volume(a,b) {
+    if(a === 1) {
+        return 1;
+    } else {
+        return a * volume(a - 1);
+    }
+}
+
+console.log(volume(8));
