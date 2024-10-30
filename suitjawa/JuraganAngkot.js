@@ -1,5 +1,5 @@
 // Juragan angkot
-let penumpang = [];
+let penumpang = [`Murai`, undefined];
 let maxPenumpang = 10;
 
 let tambahPenumpang = (namaPenumpang, penumpang) => {
@@ -25,3 +25,5 @@ let tambahPenumpang = (namaPenumpang, penumpang) => {
       }
       return penumpang;
 };
+console.log(tambahPenumpang(`Sofyan Tanjung`, penumpang));
+console.log(tambahPenumpang(`Eko`, penumpang));
